@@ -53,6 +53,11 @@ body
   font-weight: 700;
   margin-bottom: 10px;
 }
+.card-info p
+{
+  font-size: 1em;
+  margin-bottom: 15px;
+}
 .icon
 {
   filter: invert(1);
