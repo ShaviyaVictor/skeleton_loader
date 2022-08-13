@@ -18,3 +18,8 @@ const renderCard = () => {
     cardMediaIcon.classList.remove('loading');
   });
 }
+
+// execute renderCard function on setTimeOut
+setTimeout(() => {
+  renderCard();
+}, 4000);
