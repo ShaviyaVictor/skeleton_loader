@@ -7,6 +7,20 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body
+{
+  min-height: 100vh;
+}
+/* end of global styles */
+
+.container
+{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .icon
 {
   filter: invert(1);
