@@ -58,6 +58,13 @@ body
   font-size: 1em;
   margin-bottom: 15px;
 }
+.card-info .card-mediaIcons
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .icon
 {
   filter: invert(1);
