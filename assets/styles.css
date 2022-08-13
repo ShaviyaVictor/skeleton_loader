@@ -21,6 +21,16 @@ body
   align-items: center;
   flex-wrap: wrap;
 }
+.card
+{
+  position: relative;
+  background: #fff;
+  max-width: 350px;
+  width: 350px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0 5px 25px rgb(1, 1, 1);
+}
 .icon
 {
   filter: invert(1);
