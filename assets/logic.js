@@ -4,9 +4,9 @@ const cardDescriptions = document.querySelectorAll('.card-description');
 const cardMediaIcons = document.querySelectorAll('.card-mediaIcons a');
 
 const cardImgs = document.querySelectorAll('.card-image img');
-const cardTitleSpan = document.querySelectorAll('.card-title span');
-const cardDescriptionSpan = document.querySelectorAll('.card-description span');
-const MediaIcon = document.querySelectorAll('.card-mediaIcons a img');
+const cardTitleSpans = document.querySelectorAll('.card-title span');
+const cardDescriptionSpans = document.querySelectorAll('.card-description span');
+const MediaIcons = document.querySelectorAll('.card-mediaIcons a img');
 
 const renderCard = () => {
   // removing the skeleton loading effect
@@ -24,7 +24,21 @@ const renderCard = () => {
   });
 }
 
+// show the hidden html elements
+cardImgs.forEach((cardImg) => {
+  cardImg.style.visibility = 'visible';
+});
+cardTitleSpans.forEach((cardTitleSpan) => {
+  cardTitleSpan.style.visibility = 'visible';
+});
+cardDescriptionSpans.forEach((cardDescriptionSpan) => {
+  cardDescriptionSpan.style.visibility = 'visible';
+});
+MediaIcons.forEach((MediaIcon) => {
+  MediaIcon.style.visibility = 'visible';
+});
+
 // execute renderCard function on setTimeOut
 setTimeout(() => {
   renderCard();
-}, 4000);
+}, 2000);
