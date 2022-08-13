@@ -31,6 +31,16 @@ body
   border-radius: 4px;
   box-shadow: 0 5px 25px rgb(1, 1, 1);
 }
+.card-image
+{
+  max-height: 300px;
+  overflow: hidden;
+}
+.card-image img
+{
+  max-width: 100%;
+  height: auto;
+}
 .icon
 {
   filter: invert(1);
