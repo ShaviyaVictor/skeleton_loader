@@ -40,7 +40,22 @@ body
 {
   max-width: 100%;
   height: auto;
+  visibility: hidden;
 }
+
+.card-info h3 span
+{
+  visibility: hidden;
+}
+.card-info p span
+{
+  visibility: hidden;
+}
+.card-info .card-mediaIcons img
+{
+  visibility: hidden;
+}
+
 .card-info
 {
   position: relative;
